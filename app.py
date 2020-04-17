@@ -18,8 +18,10 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "ajig" "hehe" in message:
-                        message = message.replace("ajig" "ajig" , "hehe" "hehe" )
+                    if "ajig" in message:
+                        message = message.replace("ajig", "ajig")
+                     if "hehe" in message:
+                        message = message.replace("hehe", "hehe")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
